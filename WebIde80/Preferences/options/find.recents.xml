@@ -1,0 +1,7 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>table_of_contents</find>
+    </findStrings>
+  </component>
+</application>

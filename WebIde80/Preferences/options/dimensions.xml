@@ -1,0 +1,23 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.2560.1440" x="1279" y="270" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.2560.1440" x="998" y="555" />
+    <location key="OptionsEditor.2560.212.1920.1080" x="2920" y="344" />
+    <location key="Registry.2560.212.1920.1080" x="3207" y="453" />
+    <location key="OptionsEditor.0.0.1920.1080" x="695" y="87" />
+    <location key="OptionsEditor.0.0.1440.900" x="120" y="40" />
+    <location key="WELCOME_SCREEN.0.0.1440.900" x="719" y="300" />
+    <location key="#Browse_Repositories.0.0.1440.900" x="308" y="120" />
+    <location key="Registry.0.0.1920.1080" x="647" y="239" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="300" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="748" y="310" />
+    <location key="#SCSS_Lint_Plugin.0.0.1920.1080" x="695" y="424" />
+    <location key="IdeErrosDialog.0.0.1920.1080" x="518" y="370" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="424" y="210" />
+    <location key="#com.intellij.ide.macro.MacrosDialog.0.0.1920.1080" x="1083" y="217" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="548" y="210" />
+    <location key="#Plugins.0.0.1920.1080" x="548" y="210" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="1435" y="949" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="185" height="101" />
+  </component>
+</application>

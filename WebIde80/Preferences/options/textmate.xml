@@ -1,0 +1,24 @@
+<application>
+  <component name="TextMateSettings">
+    <option name="themesMapping">
+      <map>
+        <entry key="AllHallowsEve" value="Mac Classic" />
+        <entry key="Blackboard" value="Mac Classic" />
+        <entry key="Cobalt" value="Mac Classic" />
+        <entry key="Darcula" value="Mac Classic" />
+        <entry key="Dark Peacock" value="Mac Classic" />
+        <entry key="Dark Peacock Kibitaki" value="Mac Classic" />
+        <entry key="Default" value="Mac Classic" />
+        <entry key="Frost" value="Mac Classic" />
+        <entry key="Leech" value="Mac Classic" />
+        <entry key="Monokai" value="Mac Classic" />
+        <entry key="Monokai Kibitaki" value="Mac Classic" />
+        <entry key="Railscasts" value="Mac Classic" />
+        <entry key="Seti_UX" value="Mac Classic" />
+        <entry key="Twilight" value="Mac Classic" />
+        <entry key="VibrantInk" value="Mac Classic" />
+        <entry key="WarmNeon" value="Mac Classic" />
+      </map>
+    </option>
+  </component>
+</application>

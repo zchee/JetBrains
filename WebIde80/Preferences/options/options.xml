@@ -1,0 +1,32 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="evlsprt3.8" value="14" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="1" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="PhpStorm.multiCaretsEnabled" value="true" />
+    <property name="installation.uid" value="ccf03846-c686-4553-bdaf-442169489668" />
+    <property name="PhpStorm.initialConfigurationShown" value="true" />
+    <property name="ignore.unsupported.jvm.ea.message" value="true" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+    <property name="RegistryRecentKeys" value="ide.mac.useNativeClipboard" />
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="javascript.grunt_toolwindow_splitter" value="0.2" />
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.2" />
+    <property name="PLUGIN_FILTER" value="scss&#10;chrome&#10;scro&#10;goo" />
+    <property name="ColorChooser.RecentColors" value="55-18-16-255,,,205-63-69-255,,,174-8-255-255,,,0-159-255-255,,,216-246-255-255,,,132-246-195-255,,,28-34-37-255,,,133-141-138-255,,,160-116-196-255,,,38-107-133-255,,,255-8-123-255,,,2-174-255-255,,,255-86-153-255,,,104-151-187-255,,,242-109-207-255,,,152-118-170-255,,,254-208-46-255,,,52-65-52-255,,,194-148-46-255,,,255-70-126-255" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="color.picker.is.hsb" value="false" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="FileTemplates.SelectedTemplate" value="Html" />
+    <property name="KEYMAP" value="select&#10;terminal&#10;termi" />
+    <property name="FindSplitterProportion" value="0.25" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
+    <property name="RunConfigurable.dividerProportion" value="0.3" />
+  </component>
+</application>
