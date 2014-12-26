@@ -1,0 +1,15 @@
+<application>
+  <component name="DimensionService">
+    <location key="OptionsEditor.0.0.1920.1080" x="687" y="93" />
+    <location key="new project wizard.0.0.1920.1080" x="593" y="117" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="960" y="526" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="678" y="375" />
+    <location key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor.0.0.1920.1080" x="548" y="210" />
+    <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1920.1080" x="792" y="445" />
+    <location key="findTextDialog.0.0.1920.1080" x="810" y="288" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="548" y="112" />
+    <location key="#Project_Structure.0.0.1920.1080" x="436" y="126" />
+    <location key="#Plugins.0.0.1920.1080" x="548" y="111" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="710" y="425" />
+  </component>
+</application>

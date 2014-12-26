@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<idea-plugin version="2">
+  <extensions defaultExtensionNs="com.jetbrains.liveEdit">
+    <externalCompiler fileType="LESS"/>
+  </extensions>
+</idea-plugin>

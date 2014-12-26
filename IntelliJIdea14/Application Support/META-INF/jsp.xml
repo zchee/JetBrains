@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<idea-plugin version="2">
+  <extensions defaultExtensionNs="com.jetbrains.liveEdit">
+    <synchronizer implementation="com.jetbrains.liveEdit.jsp.JspSynchronizer"/>
+  </extensions>
+</idea-plugin>

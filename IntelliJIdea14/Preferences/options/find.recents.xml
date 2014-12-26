@@ -1,0 +1,23 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>getTreeTextBackground</find>
+      <find>UIUtil</find>
+      <find>getDefaultForeground</find>
+      <find>noti</find>
+      <find>getColor</find>
+      <find>titleColor</find>
+      <find>darcula</find>
+      <find>60, 63, 65</find>
+      <find>ColorUIResource</find>
+      <find>tree.setBackground</find>
+      <find>tree.</find>
+      <find>DefaultTreeModel</find>
+      <find>JTree</find>
+      <find>color</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$APPLICATION_HOME_DIR$</dir>
+    </dirStrings>
+  </component>
+</application>

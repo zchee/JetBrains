@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<idea-plugin version="2">
+  <extensions defaultExtensionNs="com.intellij.plugins.watcher">
+    <isCustomCondition implementation="com.jetbrains.liveEdit.ExternalCompilerBackedFileBasedSynchronizer$FileWatcherIsCustom"/>
+  </extensions>
+  <extensions defaultExtensionNs="com.jetbrains">
+    <liveEdit.compilerInvoker implementation="com.jetbrains.liveEdit.FileWatcherCompilerTaskInvoker" order="first"/>
+  </extensions>
+</idea-plugin>

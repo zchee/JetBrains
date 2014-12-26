@@ -1,0 +1,60 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="file-type">
+      <project id="Seti_JB" values="ARCHIVE,IDEA_MODULE,UNKNOWN,PLAIN_TEXT,JAVA,XML" />
+      <project id="ColorTree" values="UNKNOWN,PLAIN_TEXT,IDEA_MODULE,XML,JAVA,Markdown" />
+      <project id="Color" values="UNKNOWN,XML,HTML,CSS,IDEA_MODULE,JavaScript,PLAIN_TEXT,SASS" />
+      <project id="ColorIde" values="GUI_DESIGNER_FORM,PLAIN_TEXT,UNKNOWN,IDEA_MODULE,JAVA,Images,XML" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="Seti_JB" values="DEFAULT" />
+      <project id="ColorTree" values="DEFAULT" />
+      <project id="Color" values="DEFAULT" />
+      <project id="ColorIde" values="DEFAULT" />
+    </group>
+    <group name="vcs">
+      <project id="ColorTree" values="Git" />
+      <project id="ColorIde" values="Git" />
+    </group>
+    <group name="language-level">
+      <project id="Seti_JB" values="JDK_1_6" />
+      <project id="ColorTree" values="JDK_1_3" />
+      <project id="Color" values="JDK_1_3" />
+      <project id="ColorIde" values="JDK_1_6" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="Seti_JB" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="Seti_JB" values="Project,Project" />
+      <project id="ColorTree" values="Project,Project" />
+      <project id="Color" values="Project,Project" />
+      <project id="ColorIde" values="Project,Project" />
+    </group>
+    <group name="module type">
+      <project id="Seti_JB" values="PLUGIN_MODULE" />
+      <project id="ColorTree" values="WEB_MODULE" />
+      <project id="Color" values="WEB_MODULE" />
+      <project id="ColorIde" values="JAVA_MODULE" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="ide.settings.Appearance" count="4" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="4" />
+      <entry feature="ide.settings.Console_Font" count="1" />
+      <entry feature="ide.settings.Editor_Tabs" count="1" />
+      <entry feature="ide.settings.Font" count="3" />
+      <entry feature="ide.settings.General" count="20" />
+      <entry feature="ide.settings.Keymap" count="2" />
+      <entry feature="ide.settings.System_Settings" count="2" />
+      <entry feature="ideaapp.started" count="26" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="4" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.Plugins" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Update" count="1" />
+    </counts>
+  </component>
+</application>

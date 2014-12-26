@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<idea-plugin version="2">
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceInterface="com.jetbrains.liveEdit.Deployer"
+                        serviceImplementation="com.jetbrains.liveEdit.webDeployment.WebDeployer"/>
+  </extensions>
+  <extensions defaultExtensionNs="com.jetbrains">
+    <jsonRpcDomain name="Pages" implementation="com.jetbrains.liveEdit.webDeployment.WebDeploymentPageService" order="first"/>
+  </extensions>
+</idea-plugin>

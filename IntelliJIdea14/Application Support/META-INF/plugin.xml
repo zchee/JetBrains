@@ -1,0 +1,104 @@
+<idea-plugin version="2">
+  <id>com.intellij.plugins.html.instantEditing</id>
+  <name>LiveEdit</name>
+  <description><![CDATA[
+      <p>Provides live edit HTML/CSS/JavaScript.</p>
+      <p><a href="http://blog.jetbrains.com/webide/2012/08/liveedit-plugin-features-in-detail/">Screencasts</a></p>
+      <p><a href="http://confluence.jetbrains.com/display/WI/LiveEdit">Troubleshooting</a></p>
+      <p>Main menu: View -> Live Edit to enable live editing.</p>
+      <p><a href="http://confluence.jetbrains.com/display/WI/LiveEdit"><b>Since version 0.5 LiveEdit works as part of JavaScript debug session only.</b></a></p>
+      <p>Be aware:
+        <ul>
+          <li>CSS/JavaScript sync and element highlighting are not working if Web Inspector is opened, vote for <a href="http://code.google.com/p/chromium/issues/detail?id=129539">Chrome bug</a>.</li>
+          <li>Usability issue with the "plugin is debugging this tab" infobar, vote for <a href="http://code.google.com/p/chromium/issues/detail?id=138258">Chrome bug</a>.</li>
+       </ul>
+      </p>
+      ]]></description>
+
+  <category>HTML/JavaScript Development</category>
+  <version>2.0.11.139</version>
+  <!--<version>999.0</version>-->
+  <idea-version since-build="139.477" until-build="140.0"/>
+  <vendor url="http://www.jetbrains.com">JetBrains</vendor>
+  <resource-bundle>messages.LiveEditBundle</resource-bundle>
+
+  <change-notes>
+    <![CDATA[
+<p><a href="http://confluence.jetbrains.com/display/WI/LiveEdit">Since version 0.5 LiveEdit works as part of JavaScript debug session only.</a></p>
+  ]]>
+  </change-notes>
+
+  <depends>JavaScript</depends>
+  <depends>JavaScriptDebugger</depends>
+  <depends>com.intellij.modules.xml</depends>
+  <depends>com.intellij.css</depends>
+
+  <depends optional="true" config-file="webDeployment.xml">com.jetbrains.plugins.webDeployment</depends>
+  <depends optional="true" config-file="sass.xml">org.jetbrains.plugins.sass</depends>
+  <depends optional="true" config-file="less.xml">org.jetbrains.plugins.less</depends>
+  <depends optional="true" config-file="stylus.xml">org.jetbrains.plugins.stylus</depends>
+  <depends optional="true" config-file="jsp.xml">com.intellij.jsp</depends>
+  <depends optional="true" config-file="fileWatcher.xml">com.intellij.plugins.watcher</depends>
+
+  <extensionPoints>
+    <extensionPoint qualifiedName="com.jetbrains.liveEdit.synchronizer" interface="com.jetbrains.liveEdit.PsiSynchronizer"/>
+
+    <extensionPoint qualifiedName="com.jetbrains.liveEdit.lookupSynchronizerFactory" interface="com.jetbrains.liveEdit.rangeValue.RangeValueSynchronizerFactory"/>
+    <extensionPoint qualifiedName="com.jetbrains.liveEdit.rangeValueSynchronizerFactory" interface="com.jetbrains.liveEdit.rangeValue.RangeValueSynchronizerFactory"/>
+    <extensionPoint qualifiedName="com.jetbrains.liveEdit.valueAdjusterFactory" interface="com.jetbrains.liveEdit.valueAdjuster.ValueAdjusterFactory"/>
+
+    <extensionPoint qualifiedName="com.jetbrains.liveEdit.externalCompiler" beanClass="com.jetbrains.liveEdit.ExternalCompilerBean"/>
+    <extensionPoint qualifiedName="com.jetbrains.liveEdit.compilerInvoker" interface="com.intellij.util.Processor"/>
+
+    <extensionPoint qualifiedName="com.jetbrains.liveEdit.updateConfigurationProvider" interface="com.jetbrains.liveEdit.update.UpdateConfigurationProvider"/>
+  </extensionPoints>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <errorHandler implementation="com.intellij.diagnostic.ITNReporter"/>
+
+    <xdebugger.configurableProvider implementation="com.jetbrains.liveEdit.LiveEditConfigurable" order="last"/>
+
+    <postStartupActivity implementation="com.jetbrains.liveEdit.LiveEditManager"/>
+    <applicationService serviceInterface="com.jetbrains.liveEdit.highlighting.ElementHighlighter" serviceImplementation="com.jetbrains.liveEdit.highlighting.ElementHighlighter"/>
+
+    <colorPickerListenerFactory implementation="com.jetbrains.liveEdit.LiveEditColorPickerListenerFactory"/>
+    <applicationService serviceInterface="com.jetbrains.liveEdit.ApplicationInspector" serviceImplementation="com.jetbrains.liveEdit.ApplicationInspectorImpl"/>
+    <applicationService serviceImplementation="com.jetbrains.liveEdit.LiveEditOptions"/>
+
+    <psi.fileReferenceHelper implementation="com.jetbrains.liveEdit.elementsInspector.InspectorFileReferenceHelper"/>
+    <elementPreviewProvider implementation="com.jetbrains.liveEdit.highlighting.LiveEditElementPreviewProvider"/>
+  </extensions>
+  <extensions defaultExtensionNs="com.jetbrains">
+    <javaScriptRunnerContentProvider implementation="com.jetbrains.liveEdit.elementsInspector.ElementsView$ElementsRunnerContentProvider" order="first"/>
+  </extensions>
+  <extensions defaultExtensionNs="com.jetbrains.liveEdit">
+    <synchronizer implementation="com.jetbrains.liveEdit.HtmlSynchronizer"/>
+    <synchronizer implementation="com.jetbrains.liveEdit.CssSynchronizer"/>
+    <synchronizer implementation="com.jetbrains.liveEdit.JavaScriptSynchronizer"/>
+    <synchronizer implementation="com.jetbrains.liveEdit.ExternalCompilerBackedFileBasedSynchronizer"/>
+
+    <lookupSynchronizerFactory implementation="com.jetbrains.liveEdit.HtmlLookupSynchronizerFactory"/>
+    <lookupSynchronizerFactory implementation="com.jetbrains.liveEdit.rangeValue.RangeValueSynchronizerFactory$Css"/>
+
+    <rangeValueSynchronizerFactory implementation="com.jetbrains.liveEdit.rangeValue.HtmlValueSynchronizerFactory"/>
+    <rangeValueSynchronizerFactory implementation="com.jetbrains.liveEdit.rangeValue.RangeValueSynchronizerFactory$Css"/>
+
+    <valueAdjusterFactory implementation="com.jetbrains.liveEdit.valueAdjuster.CssNumberAdjusterFactory"/>
+    <valueAdjusterFactory implementation="com.jetbrains.liveEdit.valueAdjuster.JsNumberAdjusterFactory"/>
+
+    <updateConfigurationProvider implementation="com.jetbrains.debugger.wip.ChromiumUpdateConfigurationProvider"/>
+    <updateConfigurationProvider implementation="com.jetbrains.debugger.nodeJs.NodeJsUpdateConfigurationProvider"/>
+  </extensions>
+
+  <actions>
+    <action id="ReloadInBrowserAction" class="com.jetbrains.liveEdit.actions.ReloadInBrowserAction">
+      <add-to-group group-id="RunMenu" anchor="after" relative-to-action="Stop"/>
+    </action>
+    <action id="IncrementValue" class="com.jetbrains.liveEdit.actions.AdjustValueAction" text="Adjust value"/>
+    <action id="liveedit.UpdateRunningApplication" class="com.jetbrains.liveEdit.actions.UpdateRunningApplicationAction">
+      <keyboard-shortcut first-keystroke="control F10" keymap="$default"/>
+      <add-to-group group-id="XDebugger.ToolWindow.LeftToolbar" anchor="after" relative-to-action="Stop"/>
+      <add-to-group group-id="RunMenu" anchor="after" relative-to-action="ReloadInBrowserAction"/>
+    </action>
+  </actions>
+</idea-plugin>
