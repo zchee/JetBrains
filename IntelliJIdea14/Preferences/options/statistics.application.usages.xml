@@ -42,10 +42,11 @@
     <counts>
       <entry feature="ide.settings.Appearance" count="4" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="4" />
-      <entry feature="ide.settings.Console_Font" count="1" />
+      <entry feature="ide.settings.Console_Font" count="2" />
       <entry feature="ide.settings.Editor_Tabs" count="1" />
-      <entry feature="ide.settings.Font" count="3" />
+      <entry feature="ide.settings.Font" count="4" />
       <entry feature="ide.settings.General" count="20" />
+      <entry feature="ide.settings.GitHub" count="1" />
       <entry feature="ide.settings.Keymap" count="2" />
       <entry feature="ide.settings.System_Settings" count="2" />
       <entry feature="ideaapp.started" count="26" />
