@@ -32,5 +32,9 @@
     <property name="ColorChooser.RecentColors" value="16-17-18-255,,,92-92-66-255,,,187-187-187-255,,,187-0-0-255,,,120-120-120-255,,,50-50-50-255,,,13-16-1-255,,,77-77-77-255,,,254-208-46-255,,,52-65-52-255,,,21-23-24-255" />
     <property name="decompiler.legal.notice.accepted" value="true" />
     <property name="export.settings.path" value="$APPLICATION_CONFIG_DIR$/settings.jar" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="FileTemplates.SelectedTemplate" value="Html" />
+    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="class com.intellij.lang.properties.editor.ResourceBundleEditor.splitter" value="0.5" />
   </component>
 </application>

@@ -12,5 +12,13 @@
     <location key="#Plugins.0.0.1920.1080" x="548" y="111" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="710" y="425" />
     <location key="OptionsEditor.0.0.1080.1920" x="0" y="550" />
+    <location key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1080.1920" x="100" y="123" />
+    <location key="GitCloneDialog.0.0.1080.1920" x="187" y="885" />
+    <location key="NewModule_or_Project.wizard.0.0.1080.1920" x="161" y="642" />
+    <location key="WELCOME_SCREEN.0.0.1080.1920" x="540" y="473" />
+    <location key="FileChooserDialogImpl.0.0.1080.1920" x="328" y="677" />
+    <size key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1080.1920" width="880" height="1693" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" state="0" />
   </component>
 </application>

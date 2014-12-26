@@ -2,6 +2,7 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/IdeaProjects/Seti_JetBrains" />
         <option value="$USER_HOME$/Downloads/intellij-idea-13.0.0-sources" />
         <option value="$USER_HOME$/Color" />
         <option value="$USER_HOME$/IdeaProjects/Seti_JB" />
@@ -13,10 +14,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/IdeaProjects/Seti_JB" />
         <option value="$USER_HOME$/Downloads/intellij-idea-13.0.0-sources" />
+        <option value="$USER_HOME$/IdeaProjects/Seti_JetBrains" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Downloads/intellij-idea-13.0.0-sources" />
+    <option name="lastPath" value="$USER_HOME$/IdeaProjects/Seti_JetBrains" />
   </component>
 </application>
