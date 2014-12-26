@@ -2,6 +2,7 @@
   <component name="FindRecents">
     <findStrings>
       <find>table_of_contents</find>
+      <find>qp-ui</find>
     </findStrings>
   </component>
 </application>

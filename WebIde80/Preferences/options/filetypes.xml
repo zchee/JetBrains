@@ -2,6 +2,6 @@
   <component name="FileTypeManager" version="11">
     <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
     <extensionMap />
-    <setting name="fileTypeChangedCounter" value="14" />
+    <setting name="fileTypeChangedCounter" value="35" />
   </component>
 </application>

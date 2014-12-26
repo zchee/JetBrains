@@ -1,9 +1,10 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="file-type">
-      <project id="Railstutorial.jp-ReDesign" values="JavaScript,SQLite Database,JSHint,UNKNOWN,SourceMap,HTML,Gitignore file,JSON,ARCHIVE,CSS,YAML,XML,Images,PLAIN_TEXT,Markdown,SCSS" />
-      <project id="Color" values="SASS,HTML,PLAIN_TEXT,JavaScript,UNKNOWN,XML,CSS" />
-      <project id="gulp-testkit" values="JSHint,CoffeeScript,Images,SourceMap,PLAIN_TEXT,C++,XML,CSS,SCSS,ARCHIVE,PATCH,YAML,JavaScript,JSCS,SmartyConfig,ESLint,JSON,HTML,UNKNOWN" />
+      <project id="Railstutorial.jp-ReDesign" values="Markdown,PLAIN_TEXT,JavaScript,Images,CSS,SCSS,SourceMap,HTML,JSON,Gitignore file,UNKNOWN,ARCHIVE,JSHint,XML,YAML,SQLite Database" />
+      <project id="Color" values="SASS,JavaScript,PLAIN_TEXT,UNKNOWN,CSS,XML,HTML" />
+      <project id="design" values="UNKNOWN,HTML,XML,PLAIN_TEXT,CSS,JavaScript" />
+      <project id="gulp-testkit" values="ARCHIVE,XML,PLAIN_TEXT,JSON,JavaScript,CSS,SCSS,CoffeeScript,C++,PATCH,Images,ESLint,YAML,SmartyConfig,SourceMap,HTML,JSCS,JSHint,UNKNOWN" />
     </group>
     <group name="javaScript Frameworks">
       <project id="Railstutorial.jp-ReDesign" values="node_modules" />
@@ -11,26 +12,31 @@
     <group name="php-include-path">
       <project id="Railstutorial.jp-ReDesign" values="0" />
       <project id="Color" values="0" />
+      <project id="design" values="0" />
       <project id="gulp-testkit" values="0" />
     </group>
     <group name="php-interpreters">
       <project id="Railstutorial.jp-ReDesign" values="0" />
       <project id="Color" values="0" />
+      <project id="design" values="0" />
       <project id="gulp-testkit" values="0" />
     </group>
     <group name="php-servers">
       <project id="Railstutorial.jp-ReDesign" values="0" />
       <project id="Color" values="0" />
+      <project id="design" values="0" />
       <project id="gulp-testkit" values="0" />
     </group>
     <group name="JavaScript versions">
       <project id="Railstutorial.jp-ReDesign" values="DEFAULT" />
       <project id="Color" values="DEFAULT" />
+      <project id="design" values="DEFAULT" />
       <project id="gulp-testkit" values="DEFAULT" />
     </group>
     <group name="php-interpreter-version">
       <project id="Railstutorial.jp-ReDesign" values="not installed" />
       <project id="Color" values="not installed" />
+      <project id="design" values="not installed" />
       <project id="gulp-testkit" values="not installed" />
     </group>
     <group name="vcs">
@@ -38,18 +44,21 @@
       <project id="gulp-testkit" values="Git" />
     </group>
     <group name="javaScript Scope Usages">
-      <project id="Railstutorial.jp-ReDesign" values="Directory,Project,Project" />
+      <project id="Railstutorial.jp-ReDesign" values="Project,Project,Directory" />
       <project id="Color" values="Project,Project" />
+      <project id="design" values="Project,Project" />
       <project id="gulp-testkit" values="Project,Project" />
     </group>
     <group name="php-debug-skipped-paths">
       <project id="Railstutorial.jp-ReDesign" values="0" />
       <project id="Color" values="0" />
+      <project id="design" values="0" />
       <project id="gulp-testkit" values="0" />
     </group>
     <group name="module type">
       <project id="Railstutorial.jp-ReDesign" values="WEB_MODULE" />
       <project id="Color" values="WEB_MODULE" />
+      <project id="design" values="WEB_MODULE" />
       <project id="gulp-testkit" values="WEB_MODULE" />
     </group>
   </component>
@@ -57,17 +66,17 @@
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="1" />
       <entry feature="ide.settings.Appearance" count="16" />
-      <entry feature="ide.settings.CSS" count="12" />
+      <entry feature="ide.settings.CSS" count="13" />
       <entry feature="ide.settings.Code_Style" count="2" />
-      <entry feature="ide.settings.Colors_&amp;_Fonts" count="5" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="11" />
       <entry feature="ide.settings.Console_Font" count="19" />
       <entry feature="ide.settings.Editor_Tabs" count="1" />
       <entry feature="ide.settings.File_Types" count="2" />
       <entry feature="ide.settings.File_Watchers" count="2" />
-      <entry feature="ide.settings.Font" count="6" />
+      <entry feature="ide.settings.Font" count="8" />
       <entry feature="ide.settings.General" count="22" />
-      <entry feature="ide.settings.HTML" count="4" />
-      <entry feature="ide.settings.JavaScript" count="8" />
+      <entry feature="ide.settings.HTML" count="7" />
+      <entry feature="ide.settings.JavaScript" count="10" />
       <entry feature="ide.settings.Keymap" count="30" />
       <entry feature="ide.settings.Language_Defaults" count="11" />
       <entry feature="ide.settings.SASS/SCSS" count="6" />
@@ -76,7 +85,7 @@
       <entry feature="ide.settings.System_Settings" count="1" />
       <entry feature="ide.settings.TextMate_Bundles" count="2" />
       <entry feature="ide.settings.Updates" count="1" />
-      <entry feature="ideaapp.started" count="17" />
+      <entry feature="ideaapp.started" count="38" />
     </counts>
   </component>
 </application>

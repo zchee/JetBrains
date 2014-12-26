@@ -1,7 +1,7 @@
 #!/bin/sh
 JETBRAINS_PATH=$HOME/JetBrains
 EDITOR=WebIde80
-APP_PATH=$HOME/Applications/PhpStorm.app
+APP_PATH=$HOME/Applications/PhpStorm\ EAP.app
 DIRNAME=`/bin/date '+%Y%m%d-%H%M%S'`
 
 # Check JETBRAINS_PATH directory
@@ -28,13 +28,9 @@ cp "${APP_PATH}/Contents/bin/idea.properties" "$JETBRAINS_PATH/$EDITOR/backup/$D
 echo "\033[32m✔\033[m Backup Info.plist & idea.vmoptions & idea.properties from $APP_PATH"
 
 # Delete original data.
-  rm "$APP_PATH/Contents/Info.plist" "$APP_PATH/Contents/bin/idea.vmoptions $APP_PATH/Contents/bin/idea.properties"
-  rm -r "$HOME/Library/Preferences/$EDITOR"
-  rm -r "$HOME/Library/Application\ Support/$EDITOR"
+  rm "$APP_PATH/Contents/Info.plist" "$APP_PATH/Contents/bin/idea.vmoptions" "$APP_PATH/Contents/bin/idea.properties"
 
 # Make Alias
 ln -s "${JETBRAINS_PATH}/$EDITOR/Contents/Info.plist" "$APP_PATH/Contents/Info.plist"
-ln -s "${JETBRAINS_PATH}/$EDITOR/Contents/bin/idea.vmoptions" $APP_PATH/Contents/bin/idea.vmoptions
-ln -s "${JETBRAINS_PATH}/$EDITOR/Contents/bin/idea.properties" $APP_PATH/Contents/bin/idea.properties
-ln -s "${JETBRAINS_PATH}/$EDITOR/Application\ Support/" "$HOME/Library/Application\ Support/$EDITOR"
-ln -s "${JETBRAINS_PATH}/$EDITOR/Preferences/" "$HOME/Library/Preferences/$EDITOR"
+ln -s "${JETBRAINS_PATH}/$EDITOR/Contents/bin/idea.vmoptions" "$APP_PATH/Contents/bin/idea.vmoptions"
+ln -s "${JETBRAINS_PATH}/$EDITOR/Contents/bin/idea.properties" "$APP_PATH/Contents/bin/idea.properties"

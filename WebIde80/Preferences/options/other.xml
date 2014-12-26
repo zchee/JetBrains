@@ -65,17 +65,19 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/ChromeExtensions/Railstutorial.jp-ReDesign" />
         <option value="$USER_HOME$/Color" />
+        <option value="$USER_HOME$/ghq/github.com/zchee/ColorTree" />
+        <option value="$USER_HOME$/ChromeExtensions/Railstutorial.jp-ReDesign" />
+        <option value="$USER_HOME$/Downloads/SiteSucker/www.google.com/design" />
         <option value="$USER_HOME$/.ghq/github.com/zchee-sandbox/gulp-testkit" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/ChromeExtensions/Railstutorial.jp-ReDesign" />
+        <option value="$USER_HOME$/Color" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/ChromeExtensions/Railstutorial.jp-ReDesign" />
+    <option name="lastPath" value="$USER_HOME$/Color" />
   </component>
   <component name="Registry">
     <entry key="ide.firstStartup" value="false" />
